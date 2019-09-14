@@ -6,6 +6,8 @@ Introduction
 
 Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code.
 
+This fork is for tensorflow-gpu. The requirements.txt has been modified accordingly. The Dockerfile has been modified to work with tensorflow-gpu.
+
 All you need to provide is a CSV file containing your data, a list of columns to use as inputs, and a list of columns to use as outputs, Ludwig will do the rest.
 Simple commands can be used to train models both locally and in a distributed way, and to use them to predict on new data.
 
